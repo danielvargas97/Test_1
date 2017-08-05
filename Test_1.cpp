@@ -8,8 +8,15 @@ using namespace std;
 
 */
 
+int gcd(int,int);
+
 
 int main(){
+    int x,y = 0;
+    cin >> x;
+    cin >> y;
+
+    cout << gcd(x,y) << endl;
 
 
     int tam;
@@ -33,4 +40,16 @@ int main(){
     delete [] notas;
 
     return 0;
+}
+
+
+int gcd(int a,int b){
+    if(b == 0){
+        return a;
+
+    }
+    else{
+        return gcd(b,a%b);
+    }
+
 }
