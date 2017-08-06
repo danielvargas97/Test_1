@@ -1,0 +1,11 @@
+commit 7f9fcf7caea27668936b156297b3fe165b18322a
+Author: Daniel Vargas <danielvargas999@gmail.com>
+Date:   Sat Aug 5 18:07:39 2017 -0500
+
+    Se agrega el máximo común divisor
+
+commit 9a90bc78c04420e4e83d620294452a763b9d281a
+Author: Daniel Vargas <danielvargas999@gmail.com>
+Date:   Sat Aug 5 17:25:33 2017 -0500
+
+    Agregando archivo de ejemplo :v
